@@ -64,7 +64,7 @@ def simulate():
     if(1 <= nx and nx <= n and ny <= n and data[nx][ny] != 2):
       #사과 없는 경우
       if data[nx][ny] == 0:
-        #꼬리 제거
+        #**꼬리 제거
         data[nx][ny] = 2
         q.append((nx,ny))
         px, py = q.pop(0)
